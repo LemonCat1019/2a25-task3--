@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="jq5Hg)Pd|0GZpXAB0,?~">a</variable><variable id="^D2EZP?ECt8Fs#lYP!!8">b</variable></variables><block type="pxt-on-start" id="*7IUfN:xbX%Y]c5y;KcA" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="LQ96OZ6)XVcRiw]tQ5|#"><field name="VAR" id="^D2EZP?ECt8Fs#lYP!!8">b</field><value name="VALUE"><shadow type="math_number" id="()4=nG@{Gn-q~-?tm/g#"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_forever" id="vqfk{A@s=LIN)Nk:hv9(" x="308" y="104"><statement name="HANDLER"><block type="device_while" id="mrH;b%Q!Q8#wHX_x+i!q"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="Swy1yxcvEC?/@O;mw4-^"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="TQ)T07*3p5:l}Af3k81/"><field name="VAR" id="^D2EZP?ECt8Fs#lYP!!8">b</field></block></value><value name="B"><shadow type="math_number" id="GdH6^7Rn3uWM)A`5EYDh"><field name="NUM">1</field></shadow></value></block></value><statement name="DO"><block type="variables_set" id="Eb%{e..%+DZy8P$-}/Rm"><field name="VAR" id="jq5Hg)Pd|0GZpXAB0,?~">a</field><value name="VALUE"><shadow type="math_number" id="2_/}7LjN(;]yR-[%uB[z"><field name="NUM">10</field></shadow></value><next><block type="controls_repeat_ext" id="/zN$B4|dhvzf.rMknMRy"><value name="TIMES"><shadow type="math_whole_number" id="ntf{f2.M)FaL=RyWYa*e"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="variables_change" id="^}ryOhPasgA8sHj}]*)N"><field name="VAR" id="jq5Hg)Pd|0GZpXAB0,?~">a</field><value name="VALUE"><shadow type="math_number" id="KT=r5/5VsaqM-o?~t.)p"><field name="NUM">-1</field></shadow></value><next><block type="device_show_number" id="yBj(wt_#@2Z.C$ve}@,X"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="V@Tb_6J59S@|t,o4).}l"><field name="VAR" id="jq5Hg)Pd|0GZpXAB0,?~">a</field></block></value></block></next></block></statement><next><block type="device_pause" id="-xU#F7{RM$?19_C=J3^v"><value name="pause"><shadow type="timePicker" id="}8aw]-gJ]v1O%$C@?tlA"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="S:YD-{6i0.a}{;a%([j^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="(SYg%gSLmA~:QUfGV+tZ"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="lt5P^qt9AS#^xP%J*9=/"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="$n69.6~9@v(2oXlG^iQ/"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="?}6y!1L3]KN!UV:{o{tU"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="~8*4|RB%yRQ[C90[}Ljr" x="70" y="277"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="2kX83`SBxto6d7N[LNdd"><field name="VAR" id="^D2EZP?ECt8Fs#lYP!!8">b</field><value name="VALUE"><shadow type="math_number" id="o9?HDQ$p$Ar~3jUzoU0/"><field name="NUM">0</field></shadow></value></block></statement></block><block type="variables_get" id="4wmaH=ij_C+Ujl:w##5e" disabled="true" x="486" y="287"><field name="VAR" id="^D2EZP?ECt8Fs#lYP!!8">b</field></block><block type="device_button_event" id="Jp_76:^a!#LVa2@`5%RA" x="32" y="419"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="*tb]![UoVM5*`^mer7:z"><field name="VAR" id="jq5Hg)Pd|0GZpXAB0,?~">a</field><value name="VALUE"><shadow type="math_number" id="$hy1aWFc2m#6PR$HPV2x"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
